@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-inner {
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    max-width: 640px;
+    background-color: #EEEEEE;
+    border: 8px solid #03045E;
+    border-radius: 10%;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+}
+
+
+
+.form-group-nobtn input {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        background: none;
+        outline: none;
+        resize: none;
+        border: 0;
+        font-family: "Montserrat", sans-serif;
+        transition: all 0.3s;
+        border-bottom: 2px solid #bebed2;
+        font-family: "Lato", sans-serif;
+        font-weight: bold;
+    
+}
+
+input[type="radio"] {
+    position: relative;
+    text-align: right;
+    font-weight: bold;
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.popup-inner .close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-weight: bold;
+    
+
+}
+
+
+.addStudent {
+  background-color: #03045E;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 10px;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.addStudent:hover,
+.addStudent:focus {
+  background-color: #07c;
+}
+
+.addStudent:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.addStudent:active {
+  background-color: #0064bd;
+  box-shadow: none;
+}
+
+.contact {
+  font-family: 'Titan One', sans-serif;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.contact-icon {
+  height: "150px";
+  width:"150px";
+  display: "block";
+  margin-left: "auto";
+  margin-right: "auto"
+}
